@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homework1.css">
+    <title>장형석의 자기소개2</title>
+</head>
+<body>
+    <header>
+        <span>
+            <h1>장형석입니다!</h1>
+        </span>
+        <span>
+            <nav>
+                <span>
+                    <a href="https://www.instagram.com/hs0jang/">
+                        <img class="socialLink" src="../src/Instagram-Icon.png" alt="hs0jang_instagram">
+                    </a>
+                </span>
+                <span>
+                    <a href="https://github.com/HyungSeok1">
+                        <img class="socialLink" src="../src/github-mark-white.png" alt="HyungSeok1_github">
+                    </a>
+                </span>
+            </nav>
+        </span>
+    </header>
+    <section>
+        <h2>Basic Info</h2>
+        <ul>
+            <li>학교: 고려대학교</li>
+            <li>학과: 컴퓨터학과</li>
+            <li>학번: 2023320041</li>
+            <li>생년월일: 2004년 2월 11일</li>
+            <li>이메일: magu0211@naver.com</li>
+        </ul>   
+        
+    </section>
+
+    <section>
+        <h2>Hobby</h2>
+        <p>영화, 그밖의 영상 컨텐츠 시청 및 고찰...</p>
+        <h3 id="recent_content_text"><i>가장 최근에 감상한 컨텐츠</i></h3>
+        <div class="recent_contents">
+            <div class="recent_contents_poster">
+                <img id="Kill_Bill_poster"  src="https://i.namu.wiki/i/YqnNPeKRX2q75LVF7w01nyIYfZmZ4MoTJjqLCFPPHGoRjeNtZH08m85QZ2WNRbNHown052VNfs5bR8gLX7mkGCtYmcPbw7vejs73Al8getBnNph2K_27IMLkwMcoWYd05GMu8a0dGJPTwrGgyXCd9w.webp" alt="Kill_Bill_poster">
+                <div class="recent_contents_info">
+                    <h3 id="Kill_Bill_info" >
+                    Kill Bill (2003) <br>
+                    쿠엔틴 타란티노
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>댓글 작성</h2>
+        <form action="#" method="post">
+            <label for="comment">댓글:</label><br />
+            <textarea id="comment" name="comment" cols="50" rows="4"></textarea><br />
+            <input type="submit" value="댓글 작성" />
+        </form>
+    </section>
+    <button onclick="moveToTop()" class="btn-moveTop">
+        <img id="moveTopBTN" src="../src/caret-circle-up_6407431.png" alt="moveToTop">
+    </button>
+    <script src="homework1.js"></script>
+</body>
+</html>

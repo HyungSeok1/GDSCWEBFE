@@ -1,0 +1,155 @@
+body{
+    font-family: "Arial", sans-serif;
+    background-color: #FFDFB9;
+    margin: 0;
+    padding: 0;
+    color: #555;
+    line-height: 1.6;
+}
+span{
+    padding-right: 10px;
+}
+header {
+    background-color: #A4193D;
+    color: #FFDFB9;
+    text-align:center;
+    padding: 1.5em 0;
+    box-shadow: 0 0 10px black;
+}
+.socialLink{
+    width: 2em;
+    height: auto;
+    display: inline-block;
+    margin: 5px auto;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+h1, h2, h3{
+    margin: 0;
+}
+h1{
+    display: inline;
+}
+
+h2{
+    border-bottom: 2px solid #A4193D;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+section {
+    background-color: #FFDFB9;
+    margin: 30px 10%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#recent_content_text{
+    display: block;
+    width: 15em;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    background-color: #A4193D;
+    color: #FFDFB9;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.recent_contents{
+    margin: 10px auto;
+    position: relative;
+}
+
+.recent_contents_info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 125px;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #555555c9;
+    color:#efbd7f;
+    font-weight: bold;
+    opacity: 0;
+}
+.recent_contents_info:hover{
+    opacity: 1;
+}
+#Kill_Bill_info{
+    text-align: center;
+    display: block;
+}
+
+#Kill_Bill_poster{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #502c2c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #4f2b2b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 8px 0;
+}
+
+.btn-moveTop {
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#moveTopBTN{
+    width: 100%;
+    height: auto;
+}
