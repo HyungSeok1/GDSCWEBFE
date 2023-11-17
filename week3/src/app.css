@@ -1,0 +1,76 @@
+/* TodoList 컨테이너 스타일 */
+div {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ffbaba;
+  border-radius: 5px;
+  background-color: #fdf5eb;
+}
+
+/* 입력 필드 스타일 */
+input[type="text"] {
+  width: calc(100% - 45px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* 버튼 공통 스타일 */
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px solid #ff7777;
+}
+
+#addButton{
+  border: 1px solid #ffcece;
+}
+/* 추가 버튼 스타일 */
+button:hover {
+  background-color: #ffcece;
+
+}
+
+/* 삭제 버튼 스타일 */
+li button {
+  background-color: #ffdddd;
+  color: #ff5555;
+}
+#mod button{
+  background-color: #f99b9b;
+  color: #000000;
+}
+#mod:hover{
+  background-color: #f7f2d4;
+  color: #000000;
+}
+
+li button:hover {
+  background-color: #f99b9b;
+}
+
+/* 할 일 리스트 스타일 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #fdf5eb;
+  border-bottom: 1px solid #c7c6c6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
